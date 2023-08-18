@@ -1,0 +1,27 @@
+{
+  "name": "randompets",
+  "version": "1.0.0",
+  "description": "Random Cute pets",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LuizHenriqueBrazFerreira/randomPets.git"
+  },
+  "keywords": [
+    "pets",
+    "randomizer"
+  ],
+  "author": "Luiz Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizHenriqueBrazFerreira/randomPets/issues"
+  },
+  "homepage": "https://github.com/LuizHenriqueBrazFerreira/randomPets#readme",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "vite": "^4.4.9"
+  }
+}
