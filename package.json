@@ -4,7 +4,9 @@
   "description": "Random Cute pets",
   "main": "main.js",
   "scripts": {
-    "test": "npm"
+    "test": "npm",
+    "vite": "vite --open",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,6 @@
   "dependencies": {
     "@trybe/eslint-config-frontend": "^1.11.3",
     "vite": "^4.4.9"
-  }
+  },
+  "type": "module"
 }
